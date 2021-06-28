@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+      <title> Restaurants </title>
+  </head>
+    
+    <body>
+        
+    <div class="container">
+   <h1>  <center>  <i>welcome to our platform </i> </center>  </h1>
+  <div class="row">
+    <div class="col-sm">  </div>
+    <div class="col-sm">
+        <p>  If you are new here consider signing up  <br/>
+             <i> all this field are required</i>
+        </p>
+          
+        <p> 
+        
+        </p>
+  <form method="post" action="signup.incl.php">
+  <div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="text" class="form-control" placeholder="Enter your full name" name="First" required>
+    
+  </div>
+      
+  <div class="form-group">
+    <label for="exampleInputEmail1">Last Name</label>
+    <input type="text" class="form-control" placeholder="Enter your full name" name="Last" required>
+    
+  </div>
+      
+  <div class="form-group">
+    <label for="exampleInputPassword1">Email</label>
+    <input type="email" class="form-control"  placeholder="Email" name="Email" required>
+  </div>
+      
+ <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control"  placeholder="Password" name="Password" required>
+  </div>
+ 
+  
+      
+      <button type="submit" class="btn btn-primary" name="signup"> SignUp </button>
+       
+      <br/>
+      
+      Already a member <a href="Login.php"> LogIn</a>
+      <div > 
+      you can also continue <a href="HomeUnregistered.php">without registration</a> 
+      </div>
+       
+</form>
+        
+    
+        
+      
+      
+      </div>
+    <div class="col-sm"> 
+      
+      </div>
+  </div>
+</div>
+    
+    
+    
+    
+  
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+    
+  
+    
+     <div class="fixed-bottom">  
+       
+        
+        <nav class="navbar navbar-light bg-light">
+              <div class="container">
+  
+  <div class="row">
+    <div class="col-8"> 
+        <small>  Our Campany is a division of Hotels Partners Ltd.
+                This Site is rated 9.48/10 on GoAbroad based on 105 reviews. 
+        </small>
+      </div>
+    <div class="col-4"> 
+       <a href="Adminlogin.php">Admin </a>  &nbsp; <a href="#"> Carrers</a>  &nbsp; <a href="#"> Privacy</a>  &nbsp; <a href="#"> Coockies</a>
+      </div>
+  </div>
+</div>
+            
+            
+  
+</nav>
+        </div>
+</html>
